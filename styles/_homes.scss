@@ -16,7 +16,8 @@
     font-family: "Open Sans Condensed", sans-serif;
     color: white;
     font-size: 11px;
-    
+
+
   }
 
   .profil {
@@ -28,7 +29,7 @@
     h1 {
       line-height: 15px;
       span {
-        text-decoration: underline dotted #69DDFF;
+        text-decoration: underline dotted #69ddff;
       }
     }
 
@@ -73,17 +74,20 @@
     }
   }
   .contact {
-padding: 20px 0 20px 10px;
-    h1 {
-    }
+    padding: 20px 0 20px 10px;
     .lien {
       display: flex;
       margin-top: 10px;
       margin-bottom: 10px;
-      h2 {
+      a {
         flex: 1;
-
         text-align: center;
+        cursor: pointer;
+        text-decoration: none;
+        color: white;
+      }
+      a:hover {
+        color: #e5954c;
       }
     }
   }
@@ -99,6 +103,10 @@ padding: 20px 0 20px 10px;
     backdrop-filter: blur(5px);
     padding: 10px;
 
+    a{
+      cursor: pointer;
+    }
+
     h1 {
       color: white;
       font-size: 20px;
@@ -110,42 +118,41 @@ padding: 20px 0 20px 10px;
       align-items: center;
       row-gap: 20px;
 
-      .projet1{
+      .projet1 {
         background-image: url("/images/Arcade/fond-presentation.png");
         background-size: cover;
       }
 
-      .projet2{
+      .projet2 {
         background-image: url("/images/Radio/fond_radio_2.png");
         background-size: cover;
         background-position: center;
       }
-      .projet3{
+      .projet3 {
         background-image: url("/images/Sharing/coworking-1.jpg");
         background-size: cover;
         background-position: center;
-      }
 
+
+      }
 
       .card {
         width: 80%;
         display: flex;
         flex-direction: column;
         flex: 1;
-        border-radius: 15px  0px 12px 0;
+        border-radius: 15px 0px 12px 0;
         outline: 1px solid black;
-        
 
-
+       
 
         .images-projet {
           display: flex;
           justify-content: center;
           align-items: center;
           height: 250px;
-        
 
-          img{
+          img {
             width: 200px;
             filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.63));
           }
@@ -156,10 +163,10 @@ padding: 20px 0 20px 10px;
           padding: 10px;
           border-radius: 0 0 10px 0;
           box-shadow: 0 3px 0 #e5954c inset;
-    
+
           h2 {
             color: #e5954c;
-            span{
+            span {
               font-weight: lighter;
               font-style: italic;
               font-size: 16px;

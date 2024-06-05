@@ -43,7 +43,7 @@ body {
   line-height: 15px;
 }
 .bloc-presentation .profil h1 span {
-  text-decoration: underline dotted #69DDFF;
+  text-decoration: underline dotted #69ddff;
 }
 .bloc-presentation .profil p {
   font-size: 15px;
@@ -89,9 +89,15 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.bloc-presentation .contact .lien h2 {
+.bloc-presentation .contact .lien a {
   flex: 1;
   text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+.bloc-presentation .contact .lien a:hover {
+  color: #e5954c;
 }
 
 .projet {
@@ -104,6 +110,9 @@ body {
   background-color: rgba(0, 0, 0, 0.39);
   backdrop-filter: blur(5px);
   padding: 10px;
+}
+.projet .components-projet a {
+  cursor: pointer;
 }
 .projet .components-projet h1 {
   color: white;
