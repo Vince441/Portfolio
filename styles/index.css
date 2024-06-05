@@ -82,9 +82,6 @@ body {
 .bloc-presentation .competences .competence-flex .skills img {
   width: 35px;
 }
-.bloc-presentation .contact {
-  border: 1px solid red;
-}
 .bloc-presentation .contact .lien {
   display: flex;
   margin-top: 10px;
@@ -118,17 +115,53 @@ body {
   align-items: center;
   row-gap: 20px;
 }
+.projet .components-projet .box-card .projet1 {
+  background-image: url("/images/Arcade/fond-presentation.png");
+  background-size: cover;
+}
+.projet .components-projet .box-card .projet2 {
+  background-image: url("/images/Radio/fond_radio_2.png");
+  background-size: cover;
+  background-position: center;
+}
+.projet .components-projet .box-card .projet3 {
+  background-image: url("/images/Sharing/coworking-1.jpg");
+  background-size: cover;
+  background-position: center;
+}
 .projet .components-projet .box-card .card {
   width: 80%;
-  height: 300px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border-radius: 15px 0px 12px 0;
+  outline: 1px solid black;
+}
+.projet .components-projet .box-card .card .images-projet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+}
+.projet .components-projet .box-card .card .images-projet img {
+  width: 200px;
+  filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.63));
 }
 .projet .components-projet .box-card .card .description-projet {
   color: white;
   background-color: #131313;
   padding: 10px;
+  border-radius: 0 0 10px 0;
+  box-shadow: 0 3px 0 #e5954c inset;
 }
 .projet .components-projet .box-card .card .description-projet h2 {
   color: #e5954c;
+}
+.projet .components-projet .box-card .card .description-projet h2 span {
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 16px;
+  color: white;
 }
 .projet .components-projet .box-card .card .description-projet .technologie {
   display: flex;
@@ -141,6 +174,5 @@ body {
   width: 50%;
 }
 .projet .components-projet .box-card .card .description-projet .no-wrap {
-  border: 1px solid red;
   flex-wrap: nowrap;
 }/*# sourceMappingURL=index.css.map */
