@@ -52,7 +52,7 @@
     .competence-flex {
       width: 100%;
       display: flex;
-      justify-content: center;
+      justify-content: left;
       flex-wrap: wrap;
       padding: 5px;
       gap: 25px;
@@ -94,6 +94,7 @@
 }
 
 .projet {
+ 
   background-image: url("/images/fond.jpg");
   background-size: cover;
   background-position: center;

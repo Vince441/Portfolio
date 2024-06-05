@@ -1,0 +1,69 @@
+@media screen and (min-width: 1024px) {
+  .projet {
+    .components-projet {
+      .box-card {
+        flex-direction: row;
+justify-content: space-around;
+        .card {
+            flex: none;
+            width: 300px;
+            .images-projet {
+                height: 150px;
+                img{
+                    width: 150px;
+                }
+            }
+          .description-projet {
+            line-height: 30px;
+            h2{
+                text-align: center;
+                font-size: 18px;
+            }
+            .technologie {
+              flex-wrap: nowrap;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+
+    .bloc-presentation{
+        display: flex;
+        justify-content: center;
+        gap: 80px;
+        align-items: center;
+.profil{
+    padding-top: 0;
+}
+.competences{
+    width: 500px;
+    border: 1px solid red;
+    .competence-flex{
+        border: 1px solid red;
+.skills{
+    width: 50px;
+    height: 50px;
+    box-shadow: 1px 1px 1px white;
+    h3{
+        font-size: 10px;
+    }
+    img {
+        width: 25px;
+      }
+}
+
+
+    }
+
+
+}
+    }
+    
+  }
+  
