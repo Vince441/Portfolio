@@ -1,0 +1,146 @@
+@import url("https://fonts.cdnfonts.com/css/open-sans-condensed-2?styles=80716,80717,80715");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: none;
+  border: 2px solid white;
+  width: 40px;
+  height: 40px;
+  color: white;
+  align-items: center;
+}
+
+.bloc-presentation {
+  background-color: #131313;
+}
+.bloc-presentation .cards {
+  padding: 10px;
+  font-family: "Open Sans Condensed", sans-serif;
+  color: white;
+  font-size: 11px;
+}
+.bloc-presentation .profil {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding-top: 120px;
+}
+.bloc-presentation .profil h1 {
+  line-height: 15px;
+}
+.bloc-presentation .profil h1 span {
+  -webkit-text-decoration: underline dotted #69DDFF;
+          text-decoration: underline dotted #69DDFF;
+}
+.bloc-presentation .profil p {
+  font-size: 15px;
+  line-height: 10px;
+}
+.bloc-presentation .profil p span {
+  color: #e5954c;
+  font-weight: 600;
+}
+.bloc-presentation .competences {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.bloc-presentation .competences .competence-flex {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5px;
+  gap: 25px;
+}
+.bloc-presentation .competences .competence-flex .skills {
+  width: 80px;
+  height: 80px;
+  border: 1px solid white;
+  box-shadow: 3px 3px 1px white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.bloc-presentation .competences .competence-flex .skills img {
+  width: 35px;
+}
+.bloc-presentation .contact {
+  border: 1px solid red;
+}
+.bloc-presentation .contact .lien {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.bloc-presentation .contact .lien h2 {
+  flex: 1;
+  text-align: center;
+}
+
+.projet {
+  background-image: url("/images/fond.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+.projet .components-projet {
+  background-color: rgba(0, 0, 0, 0.39);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  padding: 10px;
+}
+.projet .components-projet h1 {
+  color: white;
+  font-size: 20px;
+}
+.projet .components-projet .box-card {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+.projet .components-projet .box-card .card {
+  width: 80%;
+  height: 300px;
+}
+.projet .components-projet .box-card .card .description-projet {
+  color: white;
+  background-color: #131313;
+  padding: 10px;
+}
+.projet .components-projet .box-card .card .description-projet h2 {
+  color: #e5954c;
+}
+.projet .components-projet .box-card .card .description-projet .technologie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 5px;
+}
+.projet .components-projet .box-card .card .description-projet .technologie p {
+  width: 50%;
+}
+.projet .components-projet .box-card .card .description-projet .no-wrap {
+  border: 1px solid red;
+  flex-wrap: nowrap;
+}/*# sourceMappingURL=index.css.map */
