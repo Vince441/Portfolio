@@ -81,6 +81,9 @@ body {
 .bloc-presentation .competences .competence-flex .skills img {
   width: 35px;
 }
+.bloc-presentation .contact {
+  padding: 20px 0 20px 10px;
+}
 .bloc-presentation .contact .lien {
   display: flex;
   margin-top: 10px;
