@@ -29,7 +29,8 @@
     h1 {
       line-height: 15px;
       span {
-        text-decoration: underline dotted #69ddff;
+        text-decoration: underline solid #69ddff;
+        border-bottom: 2px solid #e5954c ;
       }
     }
 
@@ -52,14 +53,14 @@
     .competence-flex {
       width: 100%;
       display: flex;
-      justify-content: left;
+      justify-content: center;
       flex-wrap: wrap;
       padding: 5px;
       gap: 25px;
 
       .skills {
-        width: 80px;
-        height: 80px;
+        width: 75px;
+        height: 75px;
         border: 1px solid white;
         box-shadow: 3px 3px 1px white;
         display: flex;
@@ -94,7 +95,6 @@
 }
 
 .projet {
- 
   background-image: url("/images/fond.jpg");
   background-size: cover;
   background-position: center;
