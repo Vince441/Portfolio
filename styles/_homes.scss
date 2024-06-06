@@ -10,12 +10,12 @@
   align-items: center;
 }
 .bloc-presentation {
-  background-color: #131313;
+  background-color: var(--secondary-color);
   .cards {
     padding: 10px;
-    font-family: "Open Sans Condensed", sans-serif;
+    font-family: var(--primary-font);
     color: white;
-    font-size: 11px;
+    font-size: 1.1rem;
 
 
   }
@@ -29,16 +29,16 @@
     h1 {
       line-height: 15px;
       span {
-        text-decoration: underline solid #69ddff;
-        border-bottom: 2px solid #e5954c ;
+        text-decoration: underline solid var(--thirdary-color);
+        border-bottom: 2px solid var(--primary-color) ;
       }
     }
 
     p {
-      font-size: 15px;
+      font-size: 1.5rem;
       line-height: 10px;
       span {
-        color: #e5954c;
+        color: var(--primary-color);
         font-weight: 600;
       }
     }
@@ -88,7 +88,7 @@
         color: white;
       }
       a:hover {
-        color: #e5954c;
+        color: var(--primary-color);
       }
     }
   }
@@ -98,7 +98,7 @@
   background-image: url("/images/fond.jpg");
   background-size: cover;
   background-position: center;
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: var(--primary-font);
   .components-projet {
     background-color: rgba(0, 0, 0, 0.39);
     backdrop-filter: blur(5px);
@@ -110,7 +110,7 @@
 
     h1 {
       color: white;
-      font-size: 20px;
+      font-size: 2rem;
     }
     .box-card {
       margin-top: 40px;
@@ -160,17 +160,17 @@
         }
         .description-projet {
           color: white;
-          background-color: #131313;
+          background-color: var(--secondary-color);
           padding: 10px;
           border-radius: 0 0 10px 0;
-          box-shadow: 0 3px 0 #e5954c inset;
+          box-shadow: 0 3px 0 var(--primary-color) inset;
 
           h2 {
-            color: #e5954c;
+            color: var(--primary-color);
             span {
               font-weight: lighter;
               font-style: italic;
-              font-size: 16px;
+              font-size: 1.6rem;
               color: white;
             }
           }
