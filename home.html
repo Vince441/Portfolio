@@ -7,15 +7,15 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <button class="button fr eng">ENG</button>
+    <button class="button fr eng" id="change-language" >ENG</button>
       <div class="bloc-presentation">
-        <div class="profil cards">
-            <h1>
+        <div class="profil cards" id="content">
+            <h1 id="profile-title">
               Bonjour !<br></br>Je m'appel <strong style="color: #e5954c">Vincent Louvart</strong>
               <br></br>
               <span>développeur web fullstack junior</span><br></br>
             </h1>
-            <p>
+            <p id="profile-description">
               Disponnible maintenant pour : <br></br>
               <span>Stage, Alternance, Projet, CDD, CDI.</span>
             </p>
@@ -24,7 +24,7 @@
 
 
         <div class="competences cards">
-          <h1>Compétences</h1>
+          <h1 id="skills-title">Compétences</h1>
           <div class="competence-flex">
         <div class="skills">
           <h3>React</h3>
@@ -81,13 +81,13 @@
 
 
          <div class="contact cards">
-          <h1>Lien</h1>
+          <h1 id="Links">Lien</h1>
           <div class='lien'>
             <a href="https://github.com/Vince441" target="_blank">  
               <img src="images/icones/Reseaux/git-white.png"></a>
           <a href="mailto:v.louvartdp@hotmail.fr">
           <img src="images/icones/Reseaux/Email.png"></a>
-          <a href="#">
+          <a href="https://drive.google.com/file/d/1EB_-1VpRu9U5LrTGHd9lak4yF4z81GOD/view?usp=drive_link">
             <img src="images/icones/Reseaux/CV.png"></a>
           </div>
         </div>
@@ -144,6 +144,6 @@
           </div>
       </div>
 
-
+      <script src="script.js"></script>
 </body>
 </html>

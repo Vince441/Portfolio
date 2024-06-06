@@ -48,7 +48,7 @@ body {
   padding-top: 120px;
 }
 .bloc-presentation .profil h1 {
-  line-height: 15px;
+  line-height: 30px;
 }
 .bloc-presentation .profil h1 span {
   text-decoration: underline solid var(--thirdary-color);
@@ -56,7 +56,7 @@ body {
 }
 .bloc-presentation .profil p {
   font-size: 1.5rem;
-  line-height: 10px;
+  line-height: 20px;
 }
 .bloc-presentation .profil p span {
   color: var(--primary-color);
@@ -95,6 +95,8 @@ body {
 }
 .bloc-presentation .contact .lien {
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -227,8 +229,10 @@ body {
   }
   .bloc-presentation .contact .lien {
     flex-direction: column;
-    align-items: flex-start;
     row-gap: 10px;
+  }
+  .bloc-presentation .contact .lien a img {
+    width: 30px;
   }
   .projet {
     height: 60vh;

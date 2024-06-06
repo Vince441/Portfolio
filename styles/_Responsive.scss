@@ -29,8 +29,13 @@
     .contact {
       .lien{
         flex-direction: column;
-        align-items: flex-start;
         row-gap: 10px;
+a{
+  img{
+    width: 30px;
+  }
+}
+
       }
     }
   }

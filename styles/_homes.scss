@@ -27,7 +27,7 @@
     padding-top: 120px;
 
     h1 {
-      line-height: 15px;
+      line-height: 30px;
       span {
         text-decoration: underline solid var(--thirdary-color);
         border-bottom: 2px solid var(--primary-color) ;
@@ -36,7 +36,7 @@
 
     p {
       font-size: 1.5rem;
-      line-height: 10px;
+      line-height: 20px;
       span {
         color: var(--primary-color);
         font-weight: 600;
@@ -78,6 +78,8 @@
     padding: 20px 0 20px 10px;
     .lien {
       display: flex;
+      justify-content: center;
+      align-items: center;
       margin-top: 10px;
       margin-bottom: 10px;
       a {
