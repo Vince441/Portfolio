@@ -102,7 +102,7 @@ img{
 }
 
 .projet {
-  background-image: url("images/fond.jpg");
+  background-image: url("/images/fond.jpg");
   background-size: cover;
   background-position: center;
   font-family: var(--primary-font);
@@ -127,17 +127,17 @@ img{
       row-gap: 20px;
 
       .projet1 {
-        background-image: url("images/Arcade/fond-presentation.png");
+        background-image: url("/images/Arcade/fond-presentation.png");
         background-size: cover;
       }
 
       .projet2 {
-        background-image: url("images/Radio/fond_radio_2.png");
+        background-image: url("/images/Radio/fond_radio_2.png");
         background-size: cover;
         background-position: center;
       }
       .projet3 {
-        background-image: url("images/Sharing/coworking-1.jpg");
+        background-image: url("/images/Sharing/coworking-1.jpg");
         background-size: cover;
         background-position: center;
 

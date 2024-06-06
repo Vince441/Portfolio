@@ -115,7 +115,7 @@ body {
 }
 
 .projet {
-  background-image: url("images/fond.jpg");
+  background-image: url("/images/fond.jpg");
   background-size: cover;
   background-position: center;
   font-family: var(--primary-font);
@@ -140,16 +140,16 @@ body {
   row-gap: 20px;
 }
 .projet .components-projet .box-card .projet1 {
-  background-image: url("images/Arcade/fond-presentation.png");
+  background-image: url("/images/Arcade/fond-presentation.png");
   background-size: cover;
 }
 .projet .components-projet .box-card .projet2 {
-  background-image: url("images/Radio/fond_radio_2.png");
+  background-image: url("/images/Radio/fond_radio_2.png");
   background-size: cover;
   background-position: center;
 }
 .projet .components-projet .box-card .projet3 {
-  background-image: url("images/Sharing/coworking-1.jpg");
+  background-image: url("/images/Sharing/coworking-1.jpg");
   background-size: cover;
   background-position: center;
 }
