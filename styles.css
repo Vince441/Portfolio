@@ -30,6 +30,7 @@ body {
   height: 40px;
   color: white;
   align-items: center;
+  cursor: pointer;
 }
 
 .bloc-presentation {
