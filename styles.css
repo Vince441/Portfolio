@@ -264,8 +264,9 @@ body {
   }
   .projet .components-projet .box-card {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    column-gap: 200px;
   }
   .projet .components-projet .box-card .card {
     flex: none;
