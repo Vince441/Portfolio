@@ -209,6 +209,7 @@ body {
   }
   .bloc-presentation .profil {
     width: 300px;
+    justify-content: center;
   }
   .bloc-presentation .profil h1 {
     font-size: 1.8rem;
@@ -219,7 +220,7 @@ body {
     line-height: 25px;
   }
   .bloc-presentation .competences {
-    width: 600px;
+    width: 550px;
   }
   .bloc-presentation .competences .competence-flex {
     justify-content: flex-start;
