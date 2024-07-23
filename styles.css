@@ -145,7 +145,7 @@ body {
 .projet .components-projet .box-card .projet0 {
   background-image: url(./images/Jb/fond.jpg);
   background-size: cover;
-  background-position: 50%;
+  background-position: 50% 0%;
 }
 .projet .components-projet .box-card .projet1 {
   background-image: url(./images/Arcade/fond-presentation.png);
@@ -251,6 +251,9 @@ body {
   .bloc-presentation .contact .lien a img {
     width: 30px;
   }
+  .projet .components-projets .box-card .projet0 {
+    background-position: 50%;
+  }
 }
 @media screen and (min-width: 1280px) {
   .projet .components-projet {
@@ -263,7 +266,8 @@ body {
   }
   .projet .components-projet .box-card {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    column-gap: 80px;
   }
   .projet .components-projet .box-card .card {
     width: 400px;

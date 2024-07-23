@@ -46,11 +46,8 @@
   .projet {
     .components-projets {
       .box-card {
-        .card {
-          .description-projet {
-            h2 {
-            }
-          }
+        .projet0{
+                background-position: 50%;
         }
       }
     }
@@ -69,7 +66,8 @@
       }
       .box-card {
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
+        column-gap: 80px;
         .card {
           width: 400px;
           flex: none;
