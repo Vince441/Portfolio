@@ -103,11 +103,13 @@
   }
 
   .projet {
+    
     .components-projet {
-      width: 100%;
+      height: 100vh;
       .box-card {
+        flex-direction: row;
         .card {
-          width: 400px;
+          width: 300px;
           .description-projet {
             h2 {
             }
