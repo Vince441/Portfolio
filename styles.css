@@ -197,7 +197,7 @@ body {
 }
 .projet .components-projet .box-card .card .description-projet .technologie p {
   width: 50%;
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 .projet .components-projet .box-card .card .description-projet .no-wrap {
   flex-wrap: nowrap;
