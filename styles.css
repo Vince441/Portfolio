@@ -309,14 +309,14 @@ body {
   }
   .bloc-presentation .profil h1 {
     font-size: 2.5rem;
-    line-height: 40px;
+    line-height: 30px;
   }
   .bloc-presentation .profil p {
     font-size: 1.5rem;
-    line-height: 25px;
+    line-height: 20px;
   }
   .bloc-presentation .competences {
-    width: 400px;
+    width: 500px;
   }
   .bloc-presentation .competences .competence-flex .skills {
     width: 60px;
@@ -357,7 +357,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    column-gap: 250px;
+    column-gap: 100px;
   }
   .projet .components-projet .box-card .card {
     flex: none;
