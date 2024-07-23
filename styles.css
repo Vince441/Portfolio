@@ -206,7 +206,8 @@ body {
 @media screen and (min-width: 1024px) {
   .bloc-presentation {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 10px;
   }
   .bloc-presentation .profil {
     width: 300px;
