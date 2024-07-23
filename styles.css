@@ -258,7 +258,7 @@ body {
   }
   .projet .components-projet h1 {
     font-size: 3rem;
-    margin: 30px 0 30px 0;
+    margin: 30px 0 50px 0;
     text-align: center;
   }
   .projet .components-projet .box-card {
@@ -270,7 +270,7 @@ body {
     flex: none;
   }
 }
-@media screen and (min-width: 1980px) {
+@media screen and (min-width: 1920px) {
   .bloc-presentation {
     display: flex;
     justify-content: center;
