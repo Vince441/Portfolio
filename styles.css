@@ -234,7 +234,7 @@ body {
   }
   .bloc-presentation .contact {
     margin-top: 20px;
-    padding: 0;
+    padding: 10px;
   }
   .bloc-presentation .contact .lien {
     flex-direction: column;
