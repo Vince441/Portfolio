@@ -1,6 +1,7 @@
 @media screen and (min-width: 1024px) {
   .bloc-presentation {
     display: flex;
+    justify-content: center;
 
 .profil {
   width: 300px;
@@ -29,6 +30,10 @@
 .contact{
   .lien{
     flex-direction: column;
+    row-gap: 10px;
+    img{
+      width: 40px;
+    }
   }
 }
 
