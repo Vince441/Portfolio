@@ -128,6 +128,7 @@ body {
 }
 .projet .components-projet a {
   cursor: pointer;
+  text-decoration: none;
 }
 .projet .components-projet h1 {
   color: white;
@@ -136,6 +137,7 @@ body {
 .projet .components-projet .box-card {
   margin-top: 40px;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   row-gap: 20px;
