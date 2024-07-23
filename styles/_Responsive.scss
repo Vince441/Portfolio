@@ -6,7 +6,12 @@
   width: 300px;
 }
 .competences {
-  width: 600px;
+  width: 500px;
+  .competence-flex{
+    .skills{
+      width: 60px;
+    }
+  }
 }
 
   }
