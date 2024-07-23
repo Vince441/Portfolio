@@ -245,5 +245,53 @@ body {
     width: 30px;
   }
 }
+@media screen and (min-width: 1280px) {
+  .bloc-presentation {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  .bloc-presentation .profil {
+    width: 300px;
+    padding-top: 80px;
+  }
+  .bloc-presentation .profil h1 {
+    font-size: 1.8rem;
+    line-height: 25px;
+  }
+  .bloc-presentation .profil p {
+    font-size: 1.3rem;
+    line-height: 25px;
+  }
+  .bloc-presentation .competences {
+    width: 550px;
+  }
+  .bloc-presentation .competences .competence-flex {
+    justify-content: flex-start;
+  }
+  .bloc-presentation .competences .competence-flex .skills {
+    width: 60px;
+    height: 60px;
+    font-size: 1rem;
+  }
+  .bloc-presentation .contact {
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .bloc-presentation .contact .lien {
+    flex-direction: column;
+    row-gap: 10px;
+    margin-top: 20px;
+  }
+  .bloc-presentation .contact .lien a img {
+    width: 30px;
+  }
+  .projet {
+    display: flex;
+  }
+  .projet .components-projets .box-card .card {
+    width: 400px;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */

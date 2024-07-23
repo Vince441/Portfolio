@@ -56,3 +56,64 @@
     }
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .bloc-presentation {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+    .profil {
+      width: 300px;
+      padding-top: 80px;
+      h1 {
+        font-size: 1.8rem;
+        line-height: 25px;
+      }
+      p {
+        font-size: 1.3rem;
+        line-height: 25px;
+      }
+    }
+    .competences {
+      width: 550px;
+      .competence-flex {
+        justify-content: flex-start;
+        .skills {
+          width: 60px;
+          height: 60px;
+          font-size: 1rem;
+        }
+      }
+    }
+    .contact {
+      margin-top: 20px;
+      padding: 10px;
+      .lien {
+        flex-direction: column;
+        row-gap: 10px;
+        margin-top: 20px;
+        a {
+          img {
+            width: 30px;
+          }
+        }
+      }
+    }
+  }
+
+  .projet {
+    display: flex;
+    .components-projets {
+      .box-card {
+        .card {
+          width: 400px;
+          .description-projet {
+            h2 {
+            }
+          }
+        }
+      }
+    }
+  }
+}
