@@ -129,7 +129,7 @@ margin-top: 20px;
     }
 
     .competences {
-      width: 600px;
+      width: 500px;
       .competence-flex {
         .skills {
           width: 60px;
@@ -180,10 +180,10 @@ margin-top: 20px;
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      column-gap: 100px;
+      column-gap: 50px;
       .card {
         flex: none;
-        width: 300px;
+        width: 250px;
         .images-projet {
           height: 150px;
           img {

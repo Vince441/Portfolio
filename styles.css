@@ -316,7 +316,7 @@ body {
     line-height: 20px;
   }
   .bloc-presentation .competences {
-    width: 600px;
+    width: 500px;
   }
   .bloc-presentation .competences .competence-flex .skills {
     width: 60px;
@@ -357,11 +357,11 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    column-gap: 100px;
+    column-gap: 50px;
   }
   .projet .components-projet .box-card .card {
     flex: none;
-    width: 300px;
+    width: 250px;
   }
   .projet .components-projet .box-card .card .images-projet {
     height: 150px;
