@@ -319,8 +319,8 @@ body {
     width: 300px;
   }
   .bloc-presentation .competences .competence-flex .skills {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     box-shadow: 1px 1px 1px white;
   }
   .bloc-presentation .competences .competence-flex .skills h3 {
