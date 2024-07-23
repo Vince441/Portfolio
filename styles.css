@@ -214,6 +214,7 @@ body {
   .bloc-presentation .profil {
     padding-top: 0;
     width: 25%;
+    align-items: flex-end;
   }
   .bloc-presentation .competences {
     width: 25%;
