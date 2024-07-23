@@ -4,11 +4,10 @@
     justify-content: center;
     gap: 20px;
     padding: 10px;
-    border: 1px solid red;
 
     .profil {
       width: 350px;
-      padding-top: 35px;
+      padding-top: 60px;
       h1 {
         font-size: 2.5rem;
         line-height: 30px;
@@ -77,8 +76,4 @@
       }
     }
   }
-}
-
-
-@media screen and (min-width: 1920px) {
 }
