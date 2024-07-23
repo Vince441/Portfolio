@@ -9,7 +9,6 @@
   color: white;
   align-items: center;
   cursor: pointer;
-  
 }
 .bloc-presentation {
   background-color: var(--secondary-color);
@@ -18,8 +17,6 @@
     font-family: var(--primary-font);
     color: white;
     font-size: 1.1rem;
-
-
   }
 
   .profil {
@@ -32,7 +29,7 @@
       line-height: 30px;
       span {
         text-decoration: underline solid var(--thirdary-color);
-        border-bottom: 2px solid var(--primary-color) ;
+        border-bottom: 2px solid var(--primary-color);
       }
     }
 
@@ -91,10 +88,9 @@
         text-decoration: none;
         color: white;
 
-img{
-  width: 50px;
-}
-
+        img {
+          width: 50px;
+        }
       }
       a:hover {
         color: var(--primary-color);
@@ -113,7 +109,7 @@ img{
     backdrop-filter: blur(5px);
     padding: 10px;
 
-    a{
+    a {
       cursor: pointer;
       text-decoration: none;
     }
@@ -130,12 +126,12 @@ img{
       align-items: center;
       row-gap: 20px;
 
-.projet0{
-  background-image: url(./images/Jb/fond.jpg);
+      .projet0 {
+        background-image: url(./images/Jb/fond.jpg);
         background-size: cover;
         background-position: 50% 0%;
-}
-      
+      }
+
       .projet1 {
         background-image: url(./images/Arcade/fond-presentation.png);
         background-size: cover;
@@ -150,8 +146,6 @@ img{
         background-image: url(./images/Sharing/coworking-1.jpg);
         background-size: cover;
         background-position: center;
-
-
       }
 
       .card {
@@ -161,8 +155,6 @@ img{
         flex: 1;
         border-radius: 15px 0px 12px 0;
         outline: 1px solid black;
-
-       
 
         .images-projet {
           display: flex;
