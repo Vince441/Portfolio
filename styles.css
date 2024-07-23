@@ -291,9 +291,11 @@ body {
   }
   .projet .components-projet .box-card {
     flex-direction: row;
+    justify-content: space-between;
   }
   .projet .components-projet .box-card .card {
-    width: 300px;
+    width: 400px;
+    flex: none;
   }
 }
 
