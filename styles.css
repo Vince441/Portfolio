@@ -197,9 +197,17 @@ body {
 }
 .projet .components-projet .box-card .card .description-projet .technologie p {
   width: 50%;
+  font-size: 1rem;
 }
 .projet .components-projet .box-card .card .description-projet .no-wrap {
   flex-wrap: nowrap;
+}
+
+@media screen and (min-width: 768px) {
+  .bloc-presentation {
+    border: 1px solid red;
+    display: flex;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
