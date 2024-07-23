@@ -1,6 +1,8 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .bloc-presentation {
-    border: 1px solid red;
     display: flex;
+    .cards {
+width: 250px;
+    }
   }
 }
