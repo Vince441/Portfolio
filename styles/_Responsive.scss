@@ -1,9 +1,13 @@
 @media screen and (min-width: 1024px) {
   .bloc-presentation {
     display: flex;
-    .cards {
-width: 250px;
-flex: 1;
-    }
+
+.profil {
+  width: 300px;
+}
+.competences {
+  width: 600px;
+}
+
   }
 }

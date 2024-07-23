@@ -207,9 +207,11 @@ body {
   .bloc-presentation {
     display: flex;
   }
-  .bloc-presentation .cards {
-    width: 250px;
-    flex: 1;
+  .bloc-presentation .profil {
+    width: 300px;
+  }
+  .bloc-presentation .competences {
+    width: 600px;
   }
 }
 
