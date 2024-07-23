@@ -215,6 +215,7 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 10px;
+    height: 300px;
   }
   .bloc-presentation .profil {
     width: 300px;
