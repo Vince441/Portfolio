@@ -64,19 +64,15 @@
       height: 100vh;
       h1{
         font-size: 3rem;
-        margin-top: 50px;
+        margin: 30px 0 30px 0;
+        text-align: center;
       }
       .box-card {
         flex-direction: row;
         justify-content: space-between;
         .card {
           width: 400px;
-          
           flex: none;
-          .description-projet {
-            h2 {
-            }
-          }
         }
       }
     }

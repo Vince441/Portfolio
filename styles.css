@@ -258,7 +258,8 @@ body {
   }
   .projet .components-projet h1 {
     font-size: 3rem;
-    margin-top: 50px;
+    margin: 30px 0 30px 0;
+    text-align: center;
   }
   .projet .components-projet .box-card {
     flex-direction: row;
