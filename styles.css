@@ -212,7 +212,6 @@ body {
     padding: 10px;
   }
   .bloc-presentation .profil {
-    width: 700px;
     padding-top: 0;
     padding-left: 8%;
   }
@@ -300,7 +299,6 @@ body {
     justify-content: center;
     gap: 30px;
     align-items: center;
-    padding: 10px 10px 10px 20px;
   }
   .bloc-presentation .profil {
     width: 300px;
