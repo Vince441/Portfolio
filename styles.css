@@ -286,11 +286,14 @@ body {
   .bloc-presentation .contact .lien a img {
     width: 30px;
   }
+  .projet {
+    display: flex;
+  }
   .projet .components-projet {
     width: 100%;
   }
   .projet .components-projet .box-card .card {
-    width: 500px;
+    width: 400px;
   }
 }
 
