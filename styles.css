@@ -229,6 +229,9 @@ body {
   .bloc-presentation .competences .competence-flex .skills img {
     width: 25px;
   }
+  .bloc-presentation .contact {
+    width: 33%;
+  }
   .bloc-presentation .contact .lien {
     flex-direction: column;
     row-gap: 10px;
