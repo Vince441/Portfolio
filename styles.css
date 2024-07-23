@@ -300,7 +300,7 @@ body {
     justify-content: center;
     gap: 30px;
     align-items: center;
-    padding: 10px;
+    padding: 10px 10px 10px 20px;
   }
   .bloc-presentation .profil {
     width: 300px;
