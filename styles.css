@@ -240,7 +240,7 @@ body {
   }
   .bloc-presentation .contact {
     width: 700px;
-    padding: 0;
+    padding: 10px 0 0 0;
   }
   .bloc-presentation .contact .lien {
     flex-direction: column;
