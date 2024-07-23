@@ -209,7 +209,7 @@ body {
   }
   .bloc-presentation .profil {
     width: 300px;
-    justify-content: center;
+    padding-top: 80px;
   }
   .bloc-presentation .profil h1 {
     font-size: 1.8rem;
