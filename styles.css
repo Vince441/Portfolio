@@ -213,9 +213,7 @@ body {
   }
   .bloc-presentation .profil {
     padding-top: 0;
-  }
-  .bloc-presentation .card {
-    width: 33vw;
+    width: 33%;
   }
   .bloc-presentation .competences {
     width: 500px;
