@@ -256,25 +256,6 @@ body {
   }
 }
 @media screen and (min-width: 1280px) {
-  .projet .components-projet {
-    height: 100vh;
-  }
-  .projet .components-projet h1 {
-    font-size: 3rem;
-    margin: 30px 0 50px 0;
-    text-align: center;
-  }
-  .projet .components-projet .box-card {
-    flex-direction: row;
-    justify-content: center;
-    column-gap: 80px;
-  }
-  .projet .components-projet .box-card .card {
-    width: 400px;
-    flex: none;
-  }
-}
-@media screen and (min-width: 1920px) {
   .bloc-presentation {
     display: flex;
     justify-content: center;
@@ -283,7 +264,7 @@ body {
   }
   .bloc-presentation .profil {
     width: 350px;
-    padding-top: 30px;
+    padding-top: 35px;
   }
   .bloc-presentation .profil h1 {
     font-size: 2.5rem;
@@ -315,6 +296,23 @@ body {
   }
   .bloc-presentation .contact .lien a img {
     width: 30px;
+  }
+  .projet .components-projet {
+    height: 100vh;
+  }
+  .projet .components-projet h1 {
+    font-size: 3rem;
+    margin: 30px 0 50px 0;
+    text-align: center;
+  }
+  .projet .components-projet .box-card {
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 80px;
+  }
+  .projet .components-projet .box-card .card {
+    width: 400px;
+    flex: none;
   }
 }
 
