@@ -9,7 +9,6 @@
 
     .profil {
       padding-top: 0;
-      width: 25%;
       padding-left: 8%;
       
       h1{
@@ -23,7 +22,6 @@
     }
 
     .competences {
-      width: 25%;
       .competence-flex {
         .skills {
           width: 75px;
@@ -39,7 +37,6 @@
       }
     }
     .contact {
-      width: 25%;
       .lien{
         flex-direction: column;
         row-gap: 10px;
