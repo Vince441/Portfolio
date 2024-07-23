@@ -266,7 +266,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    column-gap: 200px;
+    column-gap: 250px;
   }
   .projet .components-projet .box-card .card {
     flex: none;
@@ -288,6 +288,9 @@ body {
   .projet .components-projet .box-card .card .description-projet .technologie {
     flex-wrap: nowrap;
     text-align: center;
+  }
+  .projet .components-projet .box-card .card .description-projet .technologie p {
+    font-size: 1.3rem;
   }
 }
 @media screen and (min-width: 705px) {
