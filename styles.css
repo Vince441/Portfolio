@@ -289,6 +289,9 @@ body {
   .projet {
     display: flex;
   }
+  .projet .components-projets {
+    width: 100%;
+  }
   .projet .components-projets .box-card .card {
     width: 400px;
   }
