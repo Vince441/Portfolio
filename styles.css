@@ -222,9 +222,6 @@ body {
     font-size: 1.8rem;
     line-height: 25px;
   }
-  .bloc-presentation .competences {
-    width: 900px;
-  }
   .bloc-presentation .competences .competence-flex .skills {
     width: 80px;
     height: 80px;
@@ -312,7 +309,7 @@ body {
     line-height: 20px;
   }
   .bloc-presentation .competences {
-    width: 400px;
+    width: 600px;
   }
   .bloc-presentation .competences .competence-flex .skills {
     width: 60px;
