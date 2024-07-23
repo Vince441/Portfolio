@@ -256,6 +256,10 @@ body {
   .projet .components-projet {
     height: 100vh;
   }
+  .projet .components-projet h1 {
+    font-size: 3rem;
+    margin-top: 50px;
+  }
   .projet .components-projet .box-card {
     flex-direction: row;
     justify-content: space-between;

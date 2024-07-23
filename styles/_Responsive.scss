@@ -62,6 +62,10 @@
   .projet {
     .components-projet {
       height: 100vh;
+      h1{
+        font-size: 3rem;
+        margin-top: 50px;
+      }
       .box-card {
         flex-direction: row;
         justify-content: space-between;
