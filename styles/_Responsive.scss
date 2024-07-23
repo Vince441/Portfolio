@@ -67,7 +67,7 @@ a{
     h1{
       text-align: center;
       font-size: 3rem;
-
+margin-top: 20px;
     }
 
     .box-card {
@@ -76,7 +76,7 @@ a{
       align-items: center;
       .card {
         flex: none;
-        width: 300px;
+        width: 500px;
         .images-projet {
           height: 150px;
           img {
