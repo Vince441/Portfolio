@@ -213,10 +213,10 @@ body {
   }
   .bloc-presentation .profil {
     padding-top: 0;
-    width: 33%;
+    width: 25%;
   }
   .bloc-presentation .competences {
-    width: 33%;
+    width: 25%;
   }
   .bloc-presentation .competences .competence-flex .skills {
     width: 75px;
@@ -230,7 +230,7 @@ body {
     width: 25px;
   }
   .bloc-presentation .contact {
-    width: 33%;
+    width: 25%;
   }
   .bloc-presentation .contact .lien {
     flex-direction: column;
