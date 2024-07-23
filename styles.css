@@ -287,8 +287,10 @@ body {
     width: 30px;
   }
   .projet .components-projet {
-    display: flex;
     width: 100%;
+  }
+  .projet .components-projet .box-card {
+    flex-direction: row;
   }
   .projet .components-projet .box-card .card {
     width: 400px;
