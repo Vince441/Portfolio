@@ -142,6 +142,11 @@ body {
   align-items: center;
   row-gap: 20px;
 }
+.projet .components-projet .box-card .projet0 {
+  background-image: url(./images/Jb/fond.jpg);
+  background-size: cover;
+  background-position: 50%;
+}
 .projet .components-projet .box-card .projet1 {
   background-image: url(./images/Arcade/fond-presentation.png);
   background-size: cover;
