@@ -209,6 +209,7 @@ body {
   }
   .bloc-presentation .cards {
     width: 250px;
+    flex: 1;
   }
 }
 
