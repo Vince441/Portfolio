@@ -189,7 +189,7 @@ body {
   color: white;
 }
 .projet .components-projet .box-card .card .description-projet .technologie {
-  width: 200px;
+  width: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -239,6 +239,7 @@ body {
   .bloc-presentation .contact .lien {
     flex-direction: column;
     row-gap: 10px;
+    margin-top: 20px;
   }
   .bloc-presentation .contact .lien a img {
     width: 30px;
