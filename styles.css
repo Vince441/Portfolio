@@ -193,7 +193,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   row-gap: 5px;
 }
 .projet .components-projet .box-card .card .description-projet .technologie p {
