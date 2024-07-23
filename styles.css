@@ -216,6 +216,12 @@ body {
     width: 25%;
     padding-left: 10%;
   }
+  .bloc-presentation .profil h1 {
+    font-size: 3rem;
+  }
+  .bloc-presentation .profil p {
+    font-size: 1.8rem;
+  }
   .bloc-presentation .competences {
     width: 25%;
   }
