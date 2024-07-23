@@ -1,62 +1,6 @@
 @media screen and (min-width: 1024px) {
   .bloc-presentation {
     display: flex;
-    justify-content: space-around;
-    padding: 10px;
-
-    .profil {
-      width: 300px;
-      padding-top: 50px;
-      h1 {
-        font-size: 1.8rem;
-        line-height: 25px;
-      }
-      p {
-        font-size: 1.3rem;
-        line-height: 25px;
-      }
-    }
-    .competences {
-      width: 550px;
-      .competence-flex {
-        justify-content: flex-start;
-        .skills {
-          width: 60px;
-          height: 60px;
-          font-size: 1rem;
-        }
-      }
-    }
-    .contact {
-      margin-top: 20px;
-      padding: 10px;
-      .lien {
-        flex-direction: column;
-        row-gap: 10px;
-        margin-top: 20px;
-        a {
-          img {
-            width: 30px;
-          }
-        }
-      }
-    }
-  }
-
-  .projet {
-    .components-projets {
-      .box-card {
-        .projet0{
-                background-position: 50%;
-        }
-      }
-    }
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .bloc-presentation {
-    display: flex;
     justify-content: center;
     gap: 20px;
     padding: 10px;
@@ -99,6 +43,20 @@
       }
     }
   }
+
+  .projet {
+    .components-projets {
+      .box-card {
+        .projet0{
+                background-position: 50%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+
   .projet {
     .components-projet {
       height: 100vh;
