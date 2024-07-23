@@ -213,10 +213,13 @@ body {
   .bloc-presentation .competences {
     width: 500px;
   }
+  .bloc-presentation .competences .competence-flex {
+    justify-content: flex-start;
+  }
   .bloc-presentation .competences .competence-flex .skills {
     width: 60px;
     height: 60px;
-    justify-content: flex-start;
+    font-size: 1.5rem;
   }
   .bloc-presentation .contact .lien {
     flex-direction: column;
