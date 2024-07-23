@@ -286,7 +286,10 @@ body {
   .bloc-presentation .contact .lien a img {
     width: 30px;
   }
-  .projet .components-projets .box-card .card {
+  .projet .components-projet {
+    width: 100%;
+  }
+  .projet .components-projet .box-card .card {
     width: 500px;
   }
 }
