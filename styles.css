@@ -206,7 +206,7 @@ body {
 @media screen and (min-width: 1024px) {
   .bloc-presentation {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
   }
   .bloc-presentation .profil {
     width: 300px;
@@ -235,8 +235,8 @@ body {
     flex-direction: column;
     row-gap: 10px;
   }
-  .bloc-presentation .contact .lien img {
-    width: 40px;
+  .bloc-presentation .contact .lien a img {
+    width: 30px;
   }
 }
 
