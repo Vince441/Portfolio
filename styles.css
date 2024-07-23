@@ -214,6 +214,9 @@ body {
   .bloc-presentation .profil {
     padding-top: 0;
   }
+  .bloc-presentation .card {
+    width: 33vw;
+  }
   .bloc-presentation .competences {
     width: 500px;
   }
@@ -223,7 +226,7 @@ body {
     box-shadow: 1px 1px 1px white;
   }
   .bloc-presentation .competences .competence-flex .skills h3 {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   .bloc-presentation .competences .competence-flex .skills img {
     width: 25px;
