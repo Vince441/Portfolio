@@ -218,9 +218,11 @@ body {
   }
   .bloc-presentation .profil h1 {
     font-size: 3rem;
+    line-height: 40px;
   }
   .bloc-presentation .profil p {
     font-size: 1.8rem;
+    line-height: 25px;
   }
   .bloc-presentation .competences {
     width: 25%;
