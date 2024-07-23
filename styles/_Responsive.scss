@@ -11,7 +11,13 @@
     .skills{
       width: 60px;
       height: 60px;
+      justify-content: flex-start;
     }
+  }
+}
+.contact{
+  .lien{
+    flex-direction: column;
   }
 }
 
