@@ -217,3 +217,110 @@ margin-top: 20px;
   }
 }
 }
+
+
+
+
+@media screen and (min-width: 1280px) {
+  .bloc-presentation {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    padding: 10px;
+
+    .profil {
+      padding-top: 0;
+      padding-left: 5%;
+      
+      h1{
+        font-size: 2.5rem;
+        line-height: 30px;
+      }
+      p {
+        font-size: 1.8rem;
+        line-height: 25px;
+      }
+    }
+
+    .competences {
+      .competence-flex {
+        .skills {
+          width: 80px;
+          height: 80px;
+          box-shadow: 1px 1px 1px white;
+          h3 {
+            font-size: 1.3rem;
+          }
+          img {
+            width: 25px;
+          }
+        }
+      }
+    }
+    .contact {
+      width: 700px;
+      padding: 10px 0 0 0;
+      .lien{
+        flex-direction: column;
+        row-gap: 5px;
+        align-items: flex-start;
+        padding: 5px 0 5px 0;
+a{
+  img{
+    width: 40px;
+  }
+}
+
+      }
+    }
+  }
+
+
+.projet {
+  height: 60vh;
+
+
+  .components-projet {
+    height: 60vh;
+
+    h1{
+      text-align: center;
+      font-size: 3rem;
+margin-top: 20px;
+    }
+
+    .box-card {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      column-gap: 250px;
+      .card {
+        flex: none;
+        width: 350px;
+        .images-projet {
+          height: 150px;
+          img {
+            width: 150px;
+          }
+        }
+        .description-projet {
+          line-height: 30px;
+          h2 {
+            text-align: center;
+            font-size: 1.8rem;
+          }
+          .technologie {
+            flex-wrap: nowrap;
+            text-align: center;
+            p{
+              font-size: 1.3rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+}
