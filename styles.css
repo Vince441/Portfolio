@@ -216,6 +216,7 @@ body {
     justify-content: center;
     gap: 20px;
     padding: 10px;
+    border: 1px solid red;
   }
   .bloc-presentation .profil {
     width: 350px;
