@@ -4,6 +4,7 @@
     justify-content: center;
     gap: 20px;
     padding: 10px;
+    height: 20vh;
     .profil {
       width: 350px;
       padding-top: 60px;
@@ -45,6 +46,7 @@
 
   .projet {
     .components-projets {
+      height: 80vh;
       .box-card {
         .projet0{
                 background-position: 50%;
@@ -58,7 +60,7 @@
 
   .projet {
     .components-projet {
-      height: 100vh;
+      
       h1{
         font-size: 3rem;
         margin: 30px 0 50px 0;
