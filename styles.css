@@ -253,14 +253,14 @@ body {
   .bloc-presentation .contact .lien a img {
     width: 30px;
   }
-  .projet .components-projets {
-    height: 80vh;
-  }
   .projet .components-projets .box-card .projet0 {
     background-position: 50%;
   }
 }
 @media screen and (min-width: 1280px) {
+  .projet .components-projet {
+    height: 80vh;
+  }
   .projet .components-projet h1 {
     font-size: 3rem;
     margin: 30px 0 50px 0;
